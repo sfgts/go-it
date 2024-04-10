@@ -7,6 +7,7 @@ body {
     padding-bottom: 40px;
     font-family: "Montserrat", sans-serif;
     
+    
     /* padding: 40px 40px 40px 40px; */
 }
 
@@ -20,6 +21,8 @@ ul, ol {
     background-color: #fff;
     display: flex;
     flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 /* main-content */
@@ -230,4 +233,51 @@ line-height: 24px;
 }
 .work-experience-container {
     margin-bottom: 12px;
+}
+
+
+/* education */
+
+
+ .education-experience-title {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 8px; 
+ }
+.education-experience-university {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6d9bf5;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.education-university-faculty {
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.education-experience-period {
+    color: #a8a8a8;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    
+}
+.education-experience-period-separator {
+    color: #000;
+}
+
+.education-experience-container {
+    margin-bottom: 12px;
+}
+
+.work-experience {
+    margin-bottom: 40px;
 }
